@@ -1,0 +1,54 @@
+/* Analytics.css */
+
+.analytics-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden;
+    /* Ensure children elements stay within bounds */
+}
+
+.analytics-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.analytics-item {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+}
+
+.analytics-item.completed {
+    background-color: #8bc34a;
+    /* Green for Completed */
+}
+
+.analytics-item.updated {
+    background-color: #ffeb3b;
+    /* Yellow for Updated */
+}
+
+.analytics-item.edited {
+    background-color: #ff9800;
+    /* Orange for Edited */
+}
+
+.analytics-item.deleted {
+    background-color: #f44336;
+    /* Red for Deleted */
+}
+
+.analytics-item.incomplete {
+    background-color: #9e9e9e;
+    /* Grey for Incomplete */
+}
